@@ -32,13 +32,18 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
+            <version>1.18.22</version>
             <scope>provided</scope> <!-- Означает, что данная зависимость предоставляется во время
             компиляции и тестирования, но ожидается, что она будет предоставлена во время
             выполнения вашего приложения в другом окружении (например, сервер приложений или
             контейнер сервлетов). Это типичный сценарий, когда библиотека или фреймворк,
             такой, как Lombok, предоставляется контейнером выполнения, и вам не нужно включать ее
             в вашем JAR-файле. -->
+        </dependency>
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-core</artifactId>
+            <version>3.6.0</version>
         </dependency>
     </dependencies>
 
